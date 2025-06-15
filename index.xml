@@ -1,18 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tpongo – </title>
-    <link>https://tpongo.codeberg.page/</link>
-    <description>Recent content on tpongo</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Home on tpongo</title>
+    <link>https://tpongo-afk.github.io/</link>
+    <description>Recent content in Home on tpongo</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 May 2025 22:24:56 +0800</lastBuildDate>
-    
-	  <atom:link href="https://tpongo.codeberg.page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-      
-    
-    
+    <lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tpongo-afk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One month of Youtube</title>
+      <link>https://tpongo-afk.github.io/posts/2025/05/25/one-month-of-youtube/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://tpongo-afk.github.io/posts/2025/05/25/one-month-of-youtube/</guid>
+      <description>&lt;p&gt;As a first post I thought to share my Youtube watching experiences from last month. To be honest I think 80% of it is thrash looking at it in retrospect, but there are definitely some that I find invaluable. I will mostly cover Youtube videos from content creaters that I follow, not just randomly clicked on from my feed.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
