@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on tpongo</title>
-    <link>https://tpongo-afk.github.io/posts/</link>
-    <description>Recent content in Posts on tpongo</description>
+    <title>Blog on tpongo</title>
+    <link>https://tpongo-afk.github.io/tags/blog/</link>
+    <description>Recent content in Blog on tpongo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tpongo-afk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tpongo-afk.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moving back to Hungary from China</title>
       <link>https://tpongo-afk.github.io/posts/2025/09/01/moving-back-to-hungary-from-china/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://tpongo-afk.github.io/posts/2025/09/01/moving-back-to-hungary-from-china/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a long time since I haven&amp;rsquo;t posted here, so I will make a short update here. I moved back to Europe, Hungary&#xA;this month, so I want to write about some of the reverse culture shocks I experienced, the things that were new to me,&#xA;OpenStreetMap and my planning of the Camino de Santiago.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>One month of Youtube</title>
-      <link>https://tpongo-afk.github.io/posts/2025/05/25/one-month-of-youtube/</link>
-      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://tpongo-afk.github.io/posts/2025/05/25/one-month-of-youtube/</guid>
-      <description>&lt;p&gt;As a first post I thought to share my Youtube watching experiences from last month. To be honest I think 80% of it is thrash looking at it in retrospect, but there are definitely some that I find invaluable. I will mostly cover Youtube videos from content creaters that I follow, not just randomly clicked on from my feed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
