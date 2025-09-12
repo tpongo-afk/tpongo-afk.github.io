@@ -6,8 +6,15 @@
     <description>Recent content in Home on tpongo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tpongo-afk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://tpongo-afk.github.io/about/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://tpongo-afk.github.io/about/</guid>
+      <description>&lt;p&gt;I am Tivadar Pongó. Here I will write about values I live by and problems I care about in the world.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Moving back to Hungary from China</title>
       <link>https://tpongo-afk.github.io/posts/2025/09/01/moving-back-to-hungary-from-china/</link>
