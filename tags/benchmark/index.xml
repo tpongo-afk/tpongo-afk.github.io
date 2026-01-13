@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmark on tpongo</title>
+    <link>https://tpongo-afk.github.io/tags/benchmark/</link>
+    <description>Recent content in Benchmark on tpongo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tpongo-afk.github.io/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How does flex memory mode compare to dual-channel mode?</title>
+      <link>https://tpongo-afk.github.io/posts/2026/01/13/how-does-flex-memory-mode-compare-to-dual-channel-mode/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://tpongo-afk.github.io/posts/2026/01/13/how-does-flex-memory-mode-compare-to-dual-channel-mode/</guid>
+      <description>&lt;p&gt;Recently, I bought a used Lenovo Thinkpad T14 Gen3 laptop with 24 GB RAM in it. 24 GB is an unusual amount of memory to have because it is not a power of two. I assumed that there is an 8 GB soldered and a 16 GB replaceable memory stick in the laptop. I didn&amp;rsquo;t think much of it at the time of buying, I was just happy to have more RAM (in the end 24 &amp;gt; 16).&lt;/p&gt;&#xA;&lt;p&gt;However when I already had the machine for a few weeks, I wondered, would it be better to have just 16 GB of RAM but have it run in dual-channel mode?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

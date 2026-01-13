@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tpongo-afk.github.io/tags/benchmark/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/posts/2026/01/13/how-does-flex-memory-mode-compare-to-dual-channel-mode/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/tags/memory/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/posts/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/tags/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/tags/tech/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tpongo-afk.github.io/about/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,9 +38,6 @@
     <loc>https://tpongo-afk.github.io/tags/sustainability/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tpongo-afk.github.io/tags/</loc>
-    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tpongo-afk.github.io/tags/blog/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,9 +51,6 @@
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tpongo-afk.github.io/tags/openstreetmap/</loc>
-    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tpongo-afk.github.io/posts/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tpongo-afk.github.io/posts/2025/05/25/one-month-of-youtube/</loc>
