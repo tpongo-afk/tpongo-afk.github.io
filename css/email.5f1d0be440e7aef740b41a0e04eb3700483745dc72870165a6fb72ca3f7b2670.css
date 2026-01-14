@@ -1,0 +1,11 @@
+span.email.hidden {
+	display: none;
+}
+
+span.email b {
+	font-weight: normal;
+}
+
+span.email b:nth-child(even) {
+	display: none;
+}
