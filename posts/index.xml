@@ -6,8 +6,15 @@
     <description>Recent content in Posts on tpongo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tpongo-afk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to ssh into your home server without it being connected to the router?</title>
+      <link>https://tpongo-afk.github.io/posts/2026/02/22/how-to-ssh-into-your-home-server-without-it-being-connected-to-the-router/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://tpongo-afk.github.io/posts/2026/02/22/how-to-ssh-into-your-home-server-without-it-being-connected-to-the-router/</guid>
+      <description>&lt;p&gt;Have you ever been in a situation that you have a home server that has Ubuntu Server 24 and ssh running but is not connected to your router and you don&amp;rsquo;t have a keyboard and screen at hand to interact with it?&lt;/p&gt;&#xA;&lt;p&gt;Well it is not a very common scenario but it is what I encountered recently. I have a mini PC home server that was not connected to the home wifi yet and I didn&amp;rsquo;t have an ethernet cable coming from the router to connect it to the network. Neither did I have a USB keyboard and screen to interact with it. All I had at had was my laptop and an ethernet cable. I assumed that should be enough to connect the two computers and be able to use ssh.&lt;/p&gt;&#xA;&lt;p&gt;The solution actually made it possible to even share internet from my laptop to the mini PC through the ethernet cable.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rant about job applications in academia: requirements, websites, gender criterion</title>
       <link>https://tpongo-afk.github.io/posts/2026/02/04/rant-about-job-applications-in-academia-requirements-websites-gender-criterion/</link>

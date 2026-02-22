@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on tpongo</title>
-    <link>https://tpongo-afk.github.io/tags/tech/</link>
-    <description>Recent content in Tech on tpongo</description>
+    <title>Selfhosting on tpongo</title>
+    <link>https://tpongo-afk.github.io/tags/selfhosting/</link>
+    <description>Recent content in Selfhosting on tpongo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tpongo-afk.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tpongo-afk.github.io/tags/selfhosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to ssh into your home server without it being connected to the router?</title>
       <link>https://tpongo-afk.github.io/posts/2026/02/22/how-to-ssh-into-your-home-server-without-it-being-connected-to-the-router/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://tpongo-afk.github.io/posts/2026/02/22/how-to-ssh-into-your-home-server-without-it-being-connected-to-the-router/</guid>
       <description>&lt;p&gt;Have you ever been in a situation that you have a home server that has Ubuntu Server 24 and ssh running but is not connected to your router and you don&amp;rsquo;t have a keyboard and screen at hand to interact with it?&lt;/p&gt;&#xA;&lt;p&gt;Well it is not a very common scenario but it is what I encountered recently. I have a mini PC home server that was not connected to the home wifi yet and I didn&amp;rsquo;t have an ethernet cable coming from the router to connect it to the network. Neither did I have a USB keyboard and screen to interact with it. All I had at had was my laptop and an ethernet cable. I assumed that should be enough to connect the two computers and be able to use ssh.&lt;/p&gt;&#xA;&lt;p&gt;The solution actually made it possible to even share internet from my laptop to the mini PC through the ethernet cable.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How does flex memory mode compare to dual-channel mode?</title>
-      <link>https://tpongo-afk.github.io/posts/2026/01/13/how-does-flex-memory-mode-compare-to-dual-channel-mode/</link>
-      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://tpongo-afk.github.io/posts/2026/01/13/how-does-flex-memory-mode-compare-to-dual-channel-mode/</guid>
-      <description>&lt;p&gt;Recently, I bought a used Lenovo Thinkpad T14 Gen3 laptop with 24 GB RAM in it. 24 GB is an unusual amount of memory to have because it is not a power of two. I assumed that there is an 8 GB soldered and a 16 GB replaceable memory stick in the laptop. I didn&amp;rsquo;t think much of it at the time of buying, I was just happy to have more RAM (in the end 24 &amp;gt; 16).&lt;/p&gt;&#xA;&lt;p&gt;However when I already had the machine for a few weeks, I wondered, would it be better to have just 16 GB of RAM but have it run in dual-channel mode?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
