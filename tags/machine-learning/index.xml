@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on tpongo</title>
-    <link>https://tpongo-afk.github.io/tags/blog/</link>
-    <description>Recent content in Blog on tpongo</description>
+    <title>Machine-Learning on tpongo</title>
+    <link>https://tpongo-afk.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine-Learning on tpongo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tpongo-afk.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tpongo-afk.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I wrote my first neural network training from scratch in Python</title>
       <link>https://tpongo-afk.github.io/posts/2026/06/19/i-wrote-my-first-neural-network-training-from-scratch-in-python/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://tpongo-afk.github.io/posts/2026/06/19/i-wrote-my-first-neural-network-training-from-scratch-in-python/</guid>
       <description>Recently, I decided to learn more about Machine Learning (ML). My motivation behind this was that when I browsed developer job posts, I found ML tasks the most interesting. Somehow fronted, backend, full-stack developer jobs don&amp;rsquo;t call my attention that much. I was also interested in embedded system development but it seems that my experience is too shy on that topic, ML on the other hand mainly needs math, mainly linear algebra knowledge.</description>
-    </item>
-    <item>
-      <title>Moving back to Hungary from China</title>
-      <link>https://tpongo-afk.github.io/posts/2025/09/01/moving-back-to-hungary-from-china/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://tpongo-afk.github.io/posts/2025/09/01/moving-back-to-hungary-from-china/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a long time since I haven&amp;rsquo;t posted here, so I will make a short update here. I moved back to Europe, Hungary&#xA;this month, so I want to write about some of the reverse culture shocks I experienced, the things that were new to me,&#xA;OpenStreetMap and my planning of the Camino de Santiago.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

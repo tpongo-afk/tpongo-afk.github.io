@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>I wrote my first neural network training from scratch in Python - tpongo</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Recently, I decided to learn more about Machine Learning (ML). My motivation behind this was that when I browsed developer job posts, I found ML tasks the most interesting. Somehow fronted, backend, full-stack developer jobs don&rsquo;t call my attention that much. I was also interested in embedded system development but it seems that my experience is too shy on that topic, ML on the other hand mainly needs math, mainly linear algebra knowledge." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="I wrote my first neural network training from scratch in Python" />
+<meta property="og:description" content="Recently, I decided to learn more about Machine Learning (ML). My motivation behind this was that when I browsed developer job posts, I found ML tasks the most interesting. Somehow fronted, backend, full-stack developer jobs don&rsquo;t call my attention that much. I was also interested in embedded system development but it seems that my experience is too shy on that topic, ML on the other hand mainly needs math, mainly linear algebra knowledge." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tpongo-afk.github.io/posts/2026/06/19/i-wrote-my-first-neural-network-training-from-scratch-in-python/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-06-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-06-19T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="I wrote my first neural network training from scratch in Python"/>
+<meta name="twitter:description" content="Recently, I decided to learn more about Machine Learning (ML). My motivation behind this was that when I browsed developer job posts, I found ML tasks the most interesting. Somehow fronted, backend, full-stack developer jobs don&rsquo;t call my attention that much. I was also interested in embedded system development but it seems that my experience is too shy on that topic, ML on the other hand mainly needs math, mainly linear algebra knowledge."/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://tpongo-afk.github.io/css/main.0d1ee08b33e4c6266a46f6846f7dbecf3e71e24dae506b188f7861277abce3f0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://tpongo-afk.github.io/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script>
+		
+		
+		<link rel="stylesheet" type="text/css" href="https://tpongo-afk.github.io/css/email.5f1d0be440e7aef740b41a0e04eb3700483745dc72870165a6fb72ca3f7b2670.css">
+		
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://tpongo-afk.github.io/">tpongo</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/tags">Tags</a>
+		
+		<a href="/about/">About</a>
+		
+		<a href="/posts/">Posts</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">I wrote my first neural network training from scratch in Python</h1>
+          <div class="meta">Posted on Jun 19, 2026</div>
+        </div>
+        
+        <section class="body">
+          <p>Recently, I decided to learn more about Machine Learning (ML). My motivation behind this was that when I browsed developer job posts, I found ML tasks the most interesting. Somehow fronted, backend, full-stack developer jobs don&rsquo;t call my attention that much. I was also interested in embedded system development but it seems that my experience is too shy on that topic, ML on the other hand mainly needs math, mainly linear algebra knowledge. To track my learning better (and to know what to actually learn), I started to use <a href="https://roadmap.sh/machine-learning">https://roadmap.sh/machine-learning</a>, which is a flowchart-like guide to learn ML.</p>
+<p>I&rsquo;ve seen many lectures, seminars, talks about how a neural network works and it seemed fairly simple after some time. The basic idea is that there is a numerical input, a vector of numbers for which we want to find a function that gives the output closest to what we expect (training data). This can be written as $\mathbf{y} = f(\mathbf{x}),$ where $\mathbf{x}$ is the input vector and the $\mathbf{y}$ is the output vector and $f$ is a composite function that models a neural network, such as the one below.
+<img src="Colored_neural_network.svg" alt="Sketch of a neural network (colored)"></p>
+<!-- raw HTML omitted -->
+<p>The idea is that the <em>activation</em> of the hidden layer ($\mathbf{A}^{(1)}$) is calculated by a linear transformation ($\mathbf{w}$) from the input layer and by adding a bias ($\mathbf{b}$) , then an activation function ($\sigma(\mathbf{x})$) is applied to introduce some nonlinearity $\mathbf{A}^{(1)} = \sigma(\mathbf{w}_{10}\mathbf{x} + \mathbf{b}^{(1)})$. Here the super- and subscripts refer to the layer index going from 0 to 2, where the input and output are $\mathbf{A}^{(0)} = \mathbf{x}$ and $\mathbf{y} = \mathbf{A}^{(2)}$. $\sigma(\mathbf{x})$ is usually either a <em>ReLU</em> or <em>sigmoid</em> function. Overall the function $f$ can be written as
+</p>
+$$\mathbf{y} = f(\mathbf{x}) = \sigma(\mathbf{w}_{21}\mathbf{A}^{(1)} + \mathbf{b}^{(2)}) = \sigma(\mathbf{w}_{21}\sigma(\mathbf{w}_{10}\mathbf{x} + \mathbf{b}^{(1)}) + \mathbf{b}^{(2)}).$$
+<p>
+To train the model, we need to find the optimal weights $\mathbf{w}_{ij}$ and biases $\mathbf{b}^{(l)}$. That is done by finding the gradient of $f$ with respect to $\mathbf{w}_{ij}$ and $\mathbf{b}^{(l)}$ with a method called backpropagation and minimizing a <em>loss function</em> by <em>gradient descent</em>. Backpropagation is basically done by calculating the derivatives by the chain rule. I did the calculation by hand using index calculation. The calculation requires quite some attention but it was rewarding to succeed (I used <a href="https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0/">https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0/</a> as a guide). Of course the network can be made more complicated by adding more hidden layers.</p>
+<p>Following the <a href="https://www.youtube.com/watch?v=tIeHLnjs5U8&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown deep learning video</a>, I (hand-)coded a python script that trains a model to recognize handwritten digits, using the popular MNIST example <a href="https://en.wikipedia.org/wiki/MNIST_database">dataset</a>. To my surprise, the whole code fit into ~150 lines.</p>
+<p>The nice thing about implementing a neural network ML from scratch is that I could understand the backward propagation deeper and also I could get some debugging experience. What I mean by the latter is that when I managed to get rid of all the bugs that prevented the code from running, I got a 9.8% accuracy. That means, the model was just as good as random guessing&hellip; Using the <code>python -m pdb</code>  debugger, I found out that my output layer activation was always <code>[1.0, 1.0, ..., 1.0]</code>, which meant that the probability of each digit was 1 (I used a sigmoid as an activation function for the last layer). Then I started to work backwards to find where things go south and it turned out that my gradient became exactly zero due to very large input numbers in its argument. To resolve this issue, I just tried to set my initial weights and biases to random numbers between -0.5 and 0.5, instead of the previous [0; 1] interval. And that was it! After running the training for a few epochs and tweaking here and there, I could get a 95-97% accuracy on predicting the handwritten digits on the test dataset.
+Later I found out that this was a commonly known issue called <em>vanishing gradient problem</em>.</p>
+<p>The source code can be found in this <a href="https://gitlab.com/tpongo/my-nn-digit-recognition">repo</a>.</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/blog">blog</a></li>
+              
+              <li><a href="/tags/tech">tech</a></li>
+              
+              <li><a href="/tags/machine-learning">machine-learning</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2026  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+
+</div>
+    </body>
+</html>

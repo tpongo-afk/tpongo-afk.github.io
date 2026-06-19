@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tpongo-afk.github.io/tags/blog/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/posts/2026/06/19/i-wrote-my-first-neural-network-training-from-scratch-in-python/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/tags/machine-learning/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tpongo-afk.github.io/posts/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/tags/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tpongo-afk.github.io/tags/tech/</loc>
+    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tpongo-afk.github.io/posts/2026/02/22/how-to-ssh-into-your-home-server-without-it-being-connected-to-the-router/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
@@ -12,12 +27,6 @@
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tpongo-afk.github.io/tags/selfhosting/</loc>
-    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tpongo-afk.github.io/tags/</loc>
-    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tpongo-afk.github.io/tags/tech/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tpongo-afk.github.io/tags/academia/</loc>
@@ -64,9 +73,6 @@
   </url><url>
     <loc>https://tpongo-afk.github.io/tags/sustainability/</loc>
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tpongo-afk.github.io/tags/blog/</loc>
-    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tpongo-afk.github.io/tags/camino-de-santiago/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>

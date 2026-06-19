@@ -6,8 +6,15 @@
     <description>Recent content in Tech on tpongo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tpongo-afk.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I wrote my first neural network training from scratch in Python</title>
+      <link>https://tpongo-afk.github.io/posts/2026/06/19/i-wrote-my-first-neural-network-training-from-scratch-in-python/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://tpongo-afk.github.io/posts/2026/06/19/i-wrote-my-first-neural-network-training-from-scratch-in-python/</guid>
+      <description>Recently, I decided to learn more about Machine Learning (ML). My motivation behind this was that when I browsed developer job posts, I found ML tasks the most interesting. Somehow fronted, backend, full-stack developer jobs don&amp;rsquo;t call my attention that much. I was also interested in embedded system development but it seems that my experience is too shy on that topic, ML on the other hand mainly needs math, mainly linear algebra knowledge.</description>
+    </item>
     <item>
       <title>How to ssh into your home server without it being connected to the router?</title>
       <link>https://tpongo-afk.github.io/posts/2026/02/22/how-to-ssh-into-your-home-server-without-it-being-connected-to-the-router/</link>
